@@ -694,6 +694,7 @@ Resources:
                         "Resource": "arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:*",
                         "Action": [
                           "dynamodb:CreateTable",
+                          "dynamodb:UpdateTable",
                           "dynamodb:DeleteTable",
                           "dynamodb:DescribeTable",
                           "dynamodb:DescribeLimits",
